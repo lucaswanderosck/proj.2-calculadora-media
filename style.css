@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f2f2f2;
+}
+.container header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container header img {
+  width: 12%;
+  margin-right: 8px;
+}
+form {
+  margin: 20px 0;
+}
+input,
+button {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+button {
+  background-color: #00b83d;
+  cursor: pointer;
+  color: white;
+}
+button:hover {
+  background-color: #00c140;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td {
+  text-align: center;
+  padding: 8px;
+  border-bottom: 1px solid #868686;
+}
+table td img {
+  height: 20px;
+}
+th {
+  background-color: #e5e5e5;
+}
+table tfoot tr td:nth-child(1) {
+  font-weight: bold;
+  color: #323232;
+}
+table tfoot tr td {
+  padding: 20px 0 0;
+  border-bottom: none;
+}
+.aprovado {
+  color: white;
+  padding: 8px;
+  background-color: #00b83d;
+  border-radius: 4px;
+}
+.reprovado {
+  color: white;
+  padding: 8px;
+  background-color: red;
+  border-radius: 4px;
+}
